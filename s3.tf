@@ -72,5 +72,4 @@ resource "aws_s3_bucket_website_configuration" "website" {
     key = "error.html"
   }
 
-   depends_on = [ aws_s3_bucket_acl.example.id ]
-}
+   
