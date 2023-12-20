@@ -6,6 +6,10 @@ pipeline{
         terraform 'terraform'
     }
 
+    environment {
+        SCANNER_HOME=tool 'sonar-scanner'
+    }
+
     stages{
         stage('clean workspace'){
             steps{
