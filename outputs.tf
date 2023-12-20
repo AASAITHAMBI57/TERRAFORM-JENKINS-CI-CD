@@ -3,5 +3,5 @@ output "websiteendpoint" {
 }
 
 output "public_ip" {
-  value = aws_instance.As-EC2.public_ip
+  value = aws_instance.Aj-EC2.public_ip
 }
