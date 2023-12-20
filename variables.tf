@@ -18,8 +18,4 @@ variable "bucket_name" {
   description = "The name of the S3 bucket to create"
   type        = string
   default     = "aasai937500"  
-variable "acl" {
-  description = "The ACL (Access Control List) for the S3 bucket"
-  type        = string
-  default     = "private"
 }
